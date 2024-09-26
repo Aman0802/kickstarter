@@ -113,7 +113,7 @@
 /******/ 			// "1" is the signal for "already loaded"
 /******/ 			if(!installedChunks[chunkId]) {
 /******/ 				if("webpack-runtime" != chunkId) {
-/******/ 					installChunk(require("./" + __webpack_require__.u(chunkId)));
+/******/ 					installChunk(require("./module-name"));
 /******/ 				} else installedChunks[chunkId] = 1;
 /******/ 			}
 /******/ 		};
