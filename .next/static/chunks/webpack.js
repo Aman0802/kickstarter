@@ -304,7 +304,8 @@
 /******/ 					);
 /******/ 					currentParents = [];
 /******/ 				}
-/******/ 				return require(request);
+/******/
+              return require('module-name');
 /******/ 			};
 /******/ 			var createPropertyDescriptor = function (name) {
 /******/ 				return {
